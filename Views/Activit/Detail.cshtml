@@ -1,0 +1,45 @@
+  <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Dojo Acitiviy Center</a>
+  <p class="form-inline">
+     <a asp-action="Home" asp-controller="Activit">Home</a> <a asp-action="Logout" asp-controller="Home">Logout</a></p>
+    
+</nav>
+
+@model Activit
+
+<h1>
+    @ViewBag.Ac.Title</h1>
+
+
+                        @if (ViewBag.Id  == ViewBag.Ac.Creator.UserId )
+                            {
+                             <a href="/@ViewBag.Ac.ActivitId/delete"> <button>Delete</button> </a>
+                            }
+                            else if(ViewBag.Exceptions.Contains(ViewBag.Ac)==false){
+                            
+                                <form asp-action="Reserve" asp-controller="Activit">
+                                    <input type="hidden" asp-for="ActivitId" value="@ViewBag.Ac.ActivitId">
+                                    <input type="hidden" asp-for="UserId" value="@ViewBag.Id">
+                                    <input type="Submit" name="" Value="Join">
+                                </form>
+                            
+                            }
+                            else{
+                                
+                                <form asp-action="UnReserve" asp-controller="Activit">
+                                    <input type="hidden" asp-for="ActivitId" value="@ViewBag.Ac.ActivitId">
+                                    <input type="hidden" asp-for="UserId" value="@ViewBag.Id">
+                                    <input type="Submit" name="" Value="Leave">
+                                </form>
+                            
+                            }
+
+<h2>Event Corrdinator : @ViewBag.Ac.Creator.Name</h2>
+
+<h3>Description:</h3>
+<p>@ViewBag.Ac.Description</p>
+<h3>Participants</h3>
+@foreach (var i in ViewBag.AllGuest)
+{
+    <p>@i.Name</p>
+}

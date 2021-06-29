@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <h1 class="text-left">Welcome to the dojo acitivity center</h1>
+
+    <div class="row mt-5">
+        <div class="col-md">
+            <a asp-action="Regis" asp-controller="Register">Register</a>
+        </div>
+        <div class="col-md">
+            <partial name="_Login"></partial>
+        </div>
+    </div>
+
+</div>

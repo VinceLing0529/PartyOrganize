@@ -1,0 +1,60 @@
+
+
+<div class="container">
+  <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Dojo Acitiviy Center</a>
+  <p class="form-inline">
+      Welcome,@ViewBag.Name!  <a asp-action="Logout" asp-controller="Home">Logout</a></p>
+    
+</nav>
+@model Join
+ 
+    <div class="row mt-5">
+        <table class="table table-striped">
+                    <tr>
+                        <th>Activity</th>
+                        <th>Date and Time</th>
+                        <th>Durations</th>
+                        <th>Event Corrdinator</th>
+                        <th>No of Participants</th>
+                        <th>Actions</th>
+                    </tr>
+                    @foreach(var l in ViewBag.AllAc)
+                    {
+                        <tr>
+                            <td><a href="/@l.ActivitId">@l.Title</a></td>
+                            <td>@l.Date.ToString("MM/dd") at @l.Time.ToShortTimeString()</td>
+                            <td>@l.Duration @l.DurationUnit</td>
+                            <td>
+                                @l.Creator.Name</td>
+                            <td>@l.Guest.Count</td>
+
+
+                            @if (l.UserId == ViewBag.Id )
+                            {
+                            <td> <a href="/@l.ActivitId/delete">Delete</a></td>
+                            }
+                            else if(ViewBag.Exceptions.Contains(l)==false){
+                            <td>
+                                <form asp-action="Reserve" asp-controller="Activit">
+                                    <input type="hidden" asp-for="ActivitId" value="@l.ActivitId">
+                                    <input type="hidden" asp-for="UserId" value="@ViewBag.Id">
+                                    <input type="Submit" name="" Value="Join">
+                                </form>
+                            </td>
+                            }
+                            else{
+                                <td>
+                                <form asp-action="UnReserve" asp-controller="Activit">
+                                    <input type="hidden" asp-for="ActivitId" value="@l.ActivitId">
+                                    <input type="hidden" asp-for="UserId" value="@ViewBag.Id">
+                                    <input type="Submit" name="" Value="Leave">
+                                </form>
+                            </td>
+                            }
+                        </tr>
+                    }
+    </table>    
+
+    <a class="float-right" asp-action="New", asp-controller="Activit"><button>Add New Activity</button></a>
+</div>

@@ -1,0 +1,195 @@
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.exe
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.deps.json
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.runtimeconfig.json
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.runtimeconfig.dev.json
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.pdb
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.Views.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.Views.pdb
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.csprojAssemblyReference.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.AssemblyInfoInputs.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.AssemblyInfo.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.csproj.CoreCompileInputs.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.MvcApplicationPartsAssemblyInfo.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorAssemblyInfo.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorAssemblyInfo.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.TagHelpers.input.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.TagHelpers.output.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorCoreGenerate.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorTargetAssemblyInfo.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorTargetAssemblyInfo.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.Views.pdb
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.csproj.CopyComplete
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\staticwebassets\ActivityCenter.StaticWebAssets.Manifest.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\staticwebassets\ActivityCenter.StaticWebAssets.xml
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.dll
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.pdb
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.genruntimeconfig.cache
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Login.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Register.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Activit\Home.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Activit\New.cshtml.g.cs
+D:\Coding dojo\codingdojo_csharp\EntireFrameWork\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Activit\Detail.cshtml.g.cs
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.exe
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.deps.json
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.runtimeconfig.json
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.runtimeconfig.dev.json
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.pdb
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.Views.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\ActivityCenter.Views.pdb
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.csprojAssemblyReference.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.AssemblyInfoInputs.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.AssemblyInfo.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.csproj.CoreCompileInputs.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.MvcApplicationPartsAssemblyInfo.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.RazorAssemblyInfo.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.RazorAssemblyInfo.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.TagHelpers.input.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.TagHelpers.output.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.RazorCoreGenerate.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Activit\Detail.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Activit\Home.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Activit\New.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Login.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Register.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.RazorTargetAssemblyInfo.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.RazorTargetAssemblyInfo.cs
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.Views.pdb
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.csproj.CopyComplete
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\staticwebassets\ActivityCenter.StaticWebAssets.Manifest.cache
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\staticwebassets\ActivityCenter.StaticWebAssets.xml
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.dll
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.pdb
+G:\ActivityCenter-master\obj\Debug\netcoreapp3.1\ActivityCenter.genruntimeconfig.cache
+G:\ActivityCenter-master\bin\Debug\netcoreapp3.1\appsettings.json
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\appsettings.json
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.exe
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.deps.json
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.runtimeconfig.json
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.runtimeconfig.dev.json
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.pdb
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.Views.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\ActivityCenter.Views.pdb
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+G:\ActivityCenter\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.csprojAssemblyReference.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.AssemblyInfoInputs.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.AssemblyInfo.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.csproj.CoreCompileInputs.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.MvcApplicationPartsAssemblyInfo.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorAssemblyInfo.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorAssemblyInfo.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.TagHelpers.input.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.TagHelpers.output.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorCoreGenerate.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Activit\Detail.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Activit\Home.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Activit\New.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Login.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Register.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorTargetAssemblyInfo.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.RazorTargetAssemblyInfo.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.Views.pdb
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.csproj.CopyComplete
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\staticwebassets\ActivityCenter.StaticWebAssets.Manifest.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\staticwebassets\ActivityCenter.StaticWebAssets.xml
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.dll
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.pdb
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\ActivityCenter.genruntimeconfig.cache
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Register\Regis.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Register\NameNpw.cshtml.g.cs
+G:\ActivityCenter\obj\Debug\netcoreapp3.1\Razor\Views\Register\Location.cshtml.g.cs

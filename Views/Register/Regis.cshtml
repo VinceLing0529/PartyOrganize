@@ -1,0 +1,10 @@
+<h1 class="text-center">Please input your cellphone number</h1>
+@model Phone
+
+
+<form asp-action="checkcellphone" asp-controller='Register' method="POST">
+    <label asp-for="Number">Your Phone number : </label>
+    <span asp-validation-for="Number"></span>
+    <input asp-for="Number">
+    <input type="submit" name="" value="Verify">
+</form>
