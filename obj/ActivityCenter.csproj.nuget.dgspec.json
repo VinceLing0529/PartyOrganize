@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ActivityCenter\\ActivityCenter.csproj": {}
+    "G:\\PartyOrganize\\ActivityCenter.csproj": {}
   },
   "projects": {
-    "G:\\ActivityCenter\\ActivityCenter.csproj": {
+    "G:\\PartyOrganize\\ActivityCenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ActivityCenter\\ActivityCenter.csproj",
+        "projectUniqueName": "G:\\PartyOrganize\\ActivityCenter.csproj",
         "projectName": "ActivityCenter",
-        "projectPath": "G:\\ActivityCenter\\ActivityCenter.csproj",
+        "projectPath": "G:\\PartyOrganize\\ActivityCenter.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "G:\\ActivityCenter\\obj\\",
+        "outputPath": "G:\\PartyOrganize\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"

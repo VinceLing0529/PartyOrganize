@@ -7,12 +7,12 @@ namespace ActivityCenter.Models
     public class LoginUser
     {
         [Required(ErrorMessage = "is required.")]
-        [EmailAddress]
-        [Display(Name = "Email")]
-        public string LoginEmail { get; set; }
+        
+        [Display(Name = "Phone")]
+        public string LoginName { get; set; }
 
         [Required(ErrorMessage = "is required.")]
-        [MinLength(8, ErrorMessage = "must be at least 8 characters")]
+        // [MinLength(8, ErrorMessage = "must be at least 8 characters")]
         [DataType(DataType.Password)] 
         [Display(Name = "Password")]
         public string LoginPassword { get; set; }

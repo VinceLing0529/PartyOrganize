@@ -1,0 +1,115 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+    <a asp-action="Main">Ongoing</a>
+  
+  <a asp-action="Liked">Liked</a>
+  <a asp-action="History">History</a>
+  <a asp-action="Profile">Profile</a>
+  <a asp-action="Account">Account setting</a>
+</div>
+
+<div class="main">
+
+@model UpdateUser
+<form asp-action="Update" asp-controller="Dashboard" method = "Post">
+      <div class="form-group">
+    <label asp-for="Name">UserName</label>
+    <span asp-validation-for="Name" class="text-danger font-weight-bold"></span>
+    <input asp-for="Name" class="form-control" value="@ViewBag.user.Name"/>
+
+  </div>
+
+
+<div class="form-group">
+         <label asp-for="Gender">Choose your gender(cur:@ViewBag.User.Gender)</label>
+    <span asp-validation-for="Gender" class="text-danger font-weight-bold"></span>
+
+      <select asp-for="Gender">
+           <option value="@ViewBag.User.Gender">Current</option>
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+        <option value="O">Others</option>
+    </select>
+ </div>
+ <div class="form-group">
+         <label asp-for="Email">Input your email address:</label>
+    <span asp-validation-for="Email" class="text-danger font-weight-bold"></span>
+
+      <input asp-for="Email" value="@ViewBag.user.Email">
+ </div>
+  <div class="form-group">
+         <label asp-for="Zip">@ViewBag.user.UserLocation.city, @ViewBag.user.UserLocation.state_name</label>
+         <input asp-for="Zip" value="@ViewBag.user.Zip">
+    <span asp-validation-for="Zip" class="text-danger font-weight-bold"></span>
+
+    
+ </div>
+
+   <div class="form-group">
+         <label asp-for="Birthday">Birthday: @ViewBag.user.Birthday.ToString("MM/dd/yyyy")</label>
+         
+    <span asp-validation-for="Birthday" class="text-danger font-weight-bold"></span>
+    <input asp-for="Birthday" value="@ViewBag.user.Birthday">
+
+    
+ </div>
+  <button class="btn btn-outline-primary">Update</button>
+</form>
+
+
+
+<a href=""><p>School: </p></a>
+<a href=""><p>Interest:</p></a>
+
+<p>You joined at @ViewBag.user.CreatedAt</p>
+
+
+</div>
+   
+</body>
+</html> 

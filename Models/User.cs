@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ActivityCenter.Models
 {
     public class User
-{
+    {
     [Key]
     public int UserId {get;set;}
     [Required (ErrorMessage="is required")]
@@ -23,7 +23,7 @@ namespace ActivityCenter.Models
     [Required (ErrorMessage="is required")]
 
     public string Gender{get;set;}
-    
+    [EmailAddress]
     public string Email{get;set;}
 
     [Required(ErrorMessage = "Zip is Required")]
@@ -31,7 +31,7 @@ namespace ActivityCenter.Models
     public string Zip { get; set; }
     public int PhoneId{get;set;}
     public int LocationId{get;set;}
-
+public DateTime Birthday{get;set;}
     public DateTime CreatedAt {get;set;} = DateTime.Now;
     public DateTime UpdatedAt {get;set;} = DateTime.Now;
     [NotMapped]
@@ -45,5 +45,38 @@ namespace ActivityCenter.Models
     public Phone phone{get;set;}
     public Location UserLocation{get;set;}
 }    
+public class UpdateUser
+    {
+    [NotMapped]
+    [Required (ErrorMessage="is required")]
+    [MinLength(2, ErrorMessage="Name must be 2 characters or longer!")]
+    public string Name {get;set;}
+    
+   
 
+    [Required (ErrorMessage="is required")]
+
+    public string Gender{get;set;}
+    [EmailAddress]
+    public string Email{get;set;}
+
+    [Required(ErrorMessage = "Zip is Required")]
+    [RegularExpression(@"^\d{5}(-\d{4})?$", ErrorMessage = "Invalid Zip")]
+    public string Zip { get; set; }
+
+    [DataType(DataType.Date)]
+    [PastdateAttribute (ErrorMessage ="Must be a past date")]
+
+    public DateTime Birthday{get;set;}
+   
+}    
+
+}
+
+public class PastdateAttribute : ValidationAttribute
+{
+    public override bool IsValid(object value)
+    {
+        return value != null && (DateTime)value < DateTime.Now;
+    }
 }

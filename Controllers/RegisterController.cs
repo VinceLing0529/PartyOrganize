@@ -77,22 +77,21 @@ namespace ActivityCenter.Controllers
             
             if (ModelState.IsValid)
             {
-                    if(newUser.Zip[0]=='0')
-                {
-                    newUser.Zip=newUser.Zip.Substring(1);
-                }
-                if(newUser.Zip[0]=='0')
-                {
-                    newUser.Zip=newUser.Zip.Substring(1);
-                }
-                 Console.WriteLine(newUser.Zip);
+                //     if(newUser.Zip[0]=='0')
+                // {
+                //     newUser.Zip=newUser.Zip.Substring(1);
+                // }
+                // if(newUser.Zip[0]=='0')
+                // {
+                //     newUser.Zip=newUser.Zip.Substring(1);
+                // }
 
-                if (_context.Users.Any(u => u.Name == newUser.Name))
-                {
-                    ModelState.AddModelError("Name", "is taken.");
-                }
+                // if (_context.Users.Any(u => u.Name == newUser.Name))
+                // {
+                //     ModelState.AddModelError("Name", "is taken.");
+                // }
                 Location Userlocation=_context.Locations.SingleOrDefault(n => n.Zip==newUser.Zip);
-                Console.WriteLine(Userlocation);
+
                 if(Userlocation==null)
                 {
                     ModelState.AddModelError("Zip", "is not a valid zip.");
@@ -112,7 +111,7 @@ namespace ActivityCenter.Controllers
             _context.Users.Add(newUser);
             _context.SaveChanges();
             HttpContext.Session.SetInt32("UserId", newUser.UserId);
-            return RedirectToAction("Location");
+            return RedirectToAction("MainPage","Home");
         }
 
 
