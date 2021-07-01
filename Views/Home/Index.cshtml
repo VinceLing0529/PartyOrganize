@@ -2,20 +2,23 @@
     ViewData["Title"] = "Home Page";
 }
 
-<header>
-    <h1>Welcome to NMSL</h1>
-    <a asp-action="Regis" asp-controller="Register">Register</a>
-</header>
+
+<div style="display: flex;justify-content:space-between;"> 
+ 
+<div>
+<h1>Welcome !!!</h1>
+</div>
+    
+<div>
+    <h1> <a asp-action="Regis" asp-controller="Register">Register</a>
+        <a asp-action="_login" asp-controller="Home">Login</a></h1>
+       
+</div>
+</div>
+
 
 <div class="container">
     
 
-    <div class="row mt-5">
-        <div class="col-md">
-        </div>
-        <div class="col-md">
-            <partial name="_Login"></partial>
-        </div>
-    </div>
 
 </div>

@@ -7,19 +7,39 @@ namespace ActivityCenter.Models
     {
         [Key]
         public int ActivitId{get;set;}
+        
         [Required(ErrorMessage ="Must be present")]
         public string Title{get; set;}
-        [Required (ErrorMessage ="Must be present")]
-        [DataType(DataType.Time)]
 
-        public DateTime Time{get;set;}
+        [Required]
+        public string Tag{get;set;}
+
+        [Required(ErrorMessage ="Must be at least two person")]
+        [MinValue(2)]
+        [MaxValue(100)]
+        public int totalnumber{get;set;}
+        public int? NumberOfMale{get;set;}
+        
+        public int? NumbeOfFemale{get;set;}
+
+        [Required(ErrorMessage ="Must have an location")]
+        public string Location{get;set;}    
+
+        
+        public int? MinAge{get;set;}
+
+        
+        public int? MaxAge{get;set;}
+
+
         [Required (ErrorMessage ="Must be present")]
-        [FutureDateAttribute (ErrorMessage ="Must be a future date")]
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:mm/dd}")]
+        // [FutureDateAttribute (ErrorMessage ="Must be a future date")]
+
 
         public DateTime Date{get;set;}
-        public int Duration{get;set;}
+        public int? Duration{get;set;}
+
+        public double? price{get;set;}
         
         [Required (ErrorMessage ="Must be present")]
         public string Description{get;set;}
@@ -41,3 +61,33 @@ public class FutureDateAttribute : ValidationAttribute
         return value != null && (DateTime)value > DateTime.Now;
     }
 }
+
+public class MaxValueAttribute : ValidationAttribute
+    {
+        private readonly int _maxValue;
+
+        public MaxValueAttribute(int maxValue)
+        {
+            _maxValue = maxValue;
+        }
+
+        public override bool IsValid(object value)
+        {
+            return (int) value <= _maxValue;
+        }
+    }
+
+public class MinValueAttribute : ValidationAttribute
+    {
+        private readonly int _MinValue;
+
+        public MinValueAttribute(int MinValue)
+        {
+            _MinValue = MinValue;
+        }
+
+        public override bool IsValid(object value)
+        {
+            return (int) value >= _MinValue;
+        }
+    }

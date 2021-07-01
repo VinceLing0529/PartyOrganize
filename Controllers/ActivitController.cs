@@ -34,49 +34,12 @@ namespace ActivityCenter.Controllers
         {
             _context = context;
         }
-        public IActionResult Home()
-        {
-            
-            User CurrentUser= _context.Users
-            .FirstOrDefault(l => l.UserId==uid);
-
-            ViewBag.Name = CurrentUser.Name;
-            ViewBag.Id = CurrentUser.UserId;
-
-
-            ViewBag.AllAc = _context.Activits
-            .Include(l=> l.Creator)
-            .Include(l => l.Guest)
-            .OrderBy(l =>l.Date)
-            .ToList();
-           
-
-            foreach(var i in ViewBag.AllAc)
-            {
-                Console.WriteLine(i.Date.Date+i.Time.TimeOfDay);
-                Console.WriteLine(DateTime.Now);
-                if(i.Date.Date+i.Time.TimeOfDay < DateTime.Now)
-                {
-                    
-                ViewBag.AllAc.Remove(i);
-                           
-              }
-            }
-
-            ViewBag.Exceptions = _context.Activits
-            .Include(l => l.Guest)
-            .ThenInclude(l =>l.User)
-            .Where(l => l.Guest.Any(l => l.User.UserId == uid ))
-            .ToList();
-
-             return View();
-
-        }
+        
 
         public IActionResult New()
         {
             
-            ViewBag.Id = uid;
+
 
             return View();
         }
@@ -100,7 +63,7 @@ namespace ActivityCenter.Controllers
             
             _context.Activits.Add(n);
             _context.SaveChanges();
-            return RedirectToAction("Home");
+            return RedirectToAction("MainPage","Home");
 
         }
         

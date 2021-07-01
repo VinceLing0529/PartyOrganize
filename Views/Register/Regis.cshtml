@@ -3,8 +3,12 @@
 
 
 <form asp-action="checkcellphone" asp-controller='Register' method="POST">
+    <div class="form-group">
+
     <label asp-for="Number">Your Phone number : </label>
     <span asp-validation-for="Number"></span>
-    <input asp-for="Number">
-    <input type="submit" name="" value="Verify">
+    <input asp-for="Number" class="form-control" />
+  <button class="btn btn-outline-success">Verify</button>
+     </div>
+
 </form>

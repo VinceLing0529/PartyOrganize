@@ -37,12 +37,6 @@ body {
   padding: 0px 10px;
 }
 
-.header{
-  display: flex;
-  justify-content: space-between;
-}
-
-
 
 </style>
 </head>
@@ -58,15 +52,6 @@ body {
 </div>
 
 <div class="main">
-
-  <div class="header">
-    <div>Welcome!! Have a nice day.</div>
-    <div> <a asp-action="MainPage" asp-controller="Home">MainPage</a>
-
-          <a href="/logout">Log out</a></div>
-    
-         
-        </div>  
 @foreach (var item in ViewBag.myact)
 {
   <h1>@item.Title</h1>

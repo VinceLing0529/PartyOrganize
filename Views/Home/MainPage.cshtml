@@ -1,5 +1,21 @@
-<header>
-    <h1>@ViewBag.user.UserLocation.city</h1><a asp-action="Main" asp-controller="Dashboard">@ViewBag.user.Name</a>
+<div style="display: flex;justify-content:space-between;"> <h1>Activities around @ViewBag.user.UserLocation.city</h1>
+ 
+ <h1><a asp-action="Main" asp-controller="Dashboard">@ViewBag.user.Name</a>
+ <a asp-action="Logout" asp-controller="Home">Logout</a></p>
+    </h1>
     
-    
-</header>
+</div>
+
+@foreach (var i in ViewBag.act)
+
+{
+    <h1>@i.Title</h1>   
+}
+
+
+    <a asp-action="New" asp-controller="Activit">
+
+<button class="btn btn-danger"> <i class="far fa-plus-square fa-7x" >
+
+</i> </button></a>
+

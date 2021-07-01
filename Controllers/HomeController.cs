@@ -40,32 +40,48 @@ namespace ActivityCenter.Controllers
         {
             return View();
         }
-
+public IActionResult _login()
+        {
+            return View();
+        }
        
         [HttpPost("Login")]
         public IActionResult Login(LoginUser loginUser)
         {
-            if (ModelState.IsValid == false)
+           if (ModelState.IsValid == false)
             {
-                return View("Index");
+                return View("_login");
             }
+
+
             Phone dbphone = _context.Phones.FirstOrDefault(user => user.Number == loginUser.LoginName);
+             if (dbphone == null)
+            {
+                ModelState.AddModelError("LoginName", "Phone not found.");
+                                return View("_login");
+
+            }
+
             User dbUser = _context.Users.FirstOrDefault(user => user.PhoneId == dbphone.PhoneId);
             if (dbUser == null)
             {
                 ModelState.AddModelError("LoginName", "Phone not found.");
-                return View("Index"); 
-            }
+                                return View("_login");
 
+            }
+        
+
+           
             PasswordHasher<LoginUser> hasher = new PasswordHasher<LoginUser>();
             PasswordVerificationResult pwCompareResult = hasher.VerifyHashedPassword(loginUser, dbUser.Password, loginUser.LoginPassword);
             if (pwCompareResult == 0)
             {
                 ModelState.AddModelError("LoginName", "incorrect credentials.");
-                return View("Index"); 
+                return View("_login"); 
             }
             HttpContext.Session.SetInt32("UserId", dbUser.UserId);
             return RedirectToAction("MainPage");
+            
         }
 
         public IActionResult MainPage()
@@ -77,6 +93,14 @@ namespace ActivityCenter.Controllers
             ViewBag.user = _context.Users
             .Include(User => User.UserLocation)
             .SingleOrDefault(l => l.UserId == uid);
+            
+            string usercity = ViewBag.user.UserLocation.city;
+            string userstate = ViewBag.user.UserLocation.state_name;
+            
+            ViewBag.act= _context.Activits.Include(l => l.Creator.UserLocation)
+            .Where(l=>l.Creator.UserLocation.city==usercity && l.Creator.UserLocation.state_name==userstate);
+            
+
             return View();
         }
 

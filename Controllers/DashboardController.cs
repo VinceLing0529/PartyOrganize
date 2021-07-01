@@ -41,6 +41,55 @@ namespace ActivityCenter.Controllers
             .Include(l =>l.phone)
             .Include(User => User.UserLocation)
             .SingleOrDefault(l => l.UserId == uid);
+
+            ViewBag.myact=_context.Activits
+            .Where(l => l.UserId==uid)
+            .ToList();
+
+            List<Activit> final = new List<Activit>();
+
+            foreach(var i in ViewBag.myact)
+            {
+                
+                if(i.Date >DateTime.Now)
+                {
+                    
+                final.Add(i);
+                           
+              }
+            }
+
+            ViewBag.myact= final;
+
+            
+            return View();
+        }
+
+        public IActionResult History()
+        {
+            ViewBag.user = _context.Users
+            .Include(l =>l.phone)
+            .Include(User => User.UserLocation)
+            .SingleOrDefault(l => l.UserId == uid);
+
+            ViewBag.myact=_context.Activits
+            .Where(l => l.UserId==uid)
+            .ToList();
+            List<Activit> final = new List<Activit>();
+
+            foreach(var i in ViewBag.myact)
+            {
+                
+                if(i.Date <DateTime.Now)
+                {
+                    
+                final.Add(i);
+                           
+              }
+            }
+
+            ViewBag.myact= final;
+            
             return View();
         }
 

@@ -3,14 +3,16 @@ using System;
 using ActivityCenter.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ActivityCenter.Migrations
 {
     [DbContext(typeof(ActivityCenterContext))]
-    partial class ActivityCenterContextModelSnapshot : ModelSnapshot
+    [Migration("20210630224209_ss")]
+    partial class ss
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -33,31 +35,14 @@ namespace ActivityCenter.Migrations
                         .IsRequired()
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int?>("Duration")
+                    b.Property<int>("Duration")
                         .HasColumnType("int");
 
                     b.Property<string>("DurationUnit")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<string>("Location")
-                        .IsRequired()
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<int?>("MaxAge")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("MinAge")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("NumbeOfFemale")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("NumberOfMale")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Tag")
-                        .IsRequired()
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -67,12 +52,6 @@ namespace ActivityCenter.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<double?>("price")
-                        .HasColumnType("double");
-
-                    b.Property<int>("totalnumber")
                         .HasColumnType("int");
 
                     b.HasKey("ActivitId");
